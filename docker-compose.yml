@@ -52,7 +52,8 @@ services:
       - ${LIZMAP_PROJECTS}:/srv/projects
       - ${LIZMAP_DIR}/etc:/srv/etc:ro
       - ${LIZMAP_DIR}/wps-data:/srv/data
-      - ./shared:/home/shared
+      - ./shared/qgismapserver:/home/shared
+      - ./shared/qgismapserver/plugins:/srv/plugins
 
   redis:
     image: redis:5-alpine
@@ -60,7 +61,6 @@ services:
     restart: ${RESTART_POLICY}
     volumes:
       - redis_data:/data
-      - ./shared:/home/shared
 
   nginx:
     image: nginx:1
@@ -76,7 +76,6 @@ services:
       - ${LIZMAP_DIR}/var/log/nginx:/var/log/nginx
       - ${LIZMAP_DIR}/var/nginx-cache:/var/cache/nginx
       - ${LIZMAP_DIR}:/srv/lizmap
-      - ./shared:/home/shared
 
   postgis:
     image: kartoza/postgis:${POSTGIS_VERSION}
@@ -95,15 +94,15 @@ services:
       test: "exit 0"
     volumes:
       - postgis_data:/var/lib/postgresql/data
-      - ./shared:/home/shared
+      - ./shared/postgis:/home/shared
 
   pgadmin:
     image: dpage/pgadmin4
     container_name: ${COMPOSE_PROJECT_NAME}_PgAdmin
     restart: ${RESTART_POLICY}
     environment:
-      PGADMIN_DEFAULT_EMAIL: gisadmin@gisadmin.com
-      PGADMIN_DEFAULT_PASSWORD: gisadminsecret
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_USER}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
       PGADMIN_SERVER_JSON_FILE: /pgadmin4/servers.json
     ports:
       - 5050:80
@@ -112,7 +111,6 @@ services:
     volumes:
        - ./pgadmin/config/servers.json:/pgadmin4/servers.json # preconfigured servers/connections
        - ./shared/pgadmin:/var/lib/pgadmin
-       - ./shared:/home/shared
 
   filebrowser:
     image: filebrowser/filebrowser:v2.20.1
