@@ -4,3 +4,4 @@ shared/lizmap/wps-data/
 shared/pgadmin/pgadmin4.db
 shared/pgadmin/azurecredentialcache
 shared/pgadmin/sessions
+shared/pgadmin/storage

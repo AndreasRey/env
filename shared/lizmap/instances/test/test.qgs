@@ -22,7 +22,7 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer expanded="1" name="sample_points" id="sample_points_21548ad1_a522_44ea_9b72_9da79539ad36" source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_points&quot; (geom)" legend_split_behavior="0" checked="Qt::Checked" providerKey="postgres" legend_exp="" patch_size="-1,-1">
+    <layer-tree-layer expanded="1" name="sample_points" id="sample_points_21548ad1_a522_44ea_9b72_9da79539ad36" source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_points&quot; (geom)" legend_split_behavior="0" checked="Qt::Checked" providerKey="postgres" legend_exp="" patch_size="-1,-1">
       <customproperties>
         <Option/>
       </customproperties>
@@ -137,7 +137,7 @@
         <ymax>46.2281325569335948</ymax>
       </wgs84extent>
       <id>sample_points_21548ad1_a522_44ea_9b72_9da79539ad36</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="public"."sample_points" (geom)</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="public"."sample_points" (geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>

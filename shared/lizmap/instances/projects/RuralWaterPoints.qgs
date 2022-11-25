@@ -19,67 +19,67 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;RuralWaterPoint&quot; (geom) sql=" name="RuralWaterPoint" id="RuralWaterPoint_162915bc_7708_48e8_89e8_d4362e0f18a4" providerKey="postgres" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;RuralWaterPoint&quot; (geom) sql=" name="RuralWaterPoint" id="RuralWaterPoint_162915bc_7708_48e8_89e8_d4362e0f18a4" providerKey="postgres" expanded="1" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;RuralWaterPoint&quot; (geom) sql=" name="RuralWaterPoint_energy" id="RuralWaterPoint_7665c772_1a1b_42ca_b659_669787e6073d" providerKey="postgres" expanded="1" checked="Qt::Unchecked">
+    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;RuralWaterPoint&quot; (geom) sql=" name="RuralWaterPoint_energy" id="RuralWaterPoint_7665c772_1a1b_42ca_b659_669787e6073d" providerKey="postgres" expanded="1" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;RuralWaterPoint&quot; (geom) sql=" name="RuralWaterPoint_conditions" id="RuralWaterPoint_ff64204d_ab7a_40f0_83da_6744767afcf1" providerKey="postgres" expanded="0" checked="Qt::Unchecked">
+    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;RuralWaterPoint&quot; (geom) sql=" name="RuralWaterPoint_conditions" id="RuralWaterPoint_ff64204d_ab7a_40f0_83da_6744767afcf1" providerKey="postgres" expanded="0" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id_0' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;MaintenanceVisits&quot; sql=" name="MaintenanceVisits" id="MaintenanceVisits_cbb9bfc3_33d2_4d78_99d5_9713ec3b0af1" providerKey="postgres" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id_0' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;MaintenanceVisits&quot; sql=" name="MaintenanceVisits" id="MaintenanceVisits_cbb9bfc3_33d2_4d78_99d5_9713ec3b0af1" providerKey="postgres" expanded="1" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-group name="Domains" expanded="1" checked="Qt::Checked">
       <customproperties/>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;YesNoDomain&quot; sql=" name="YesNoDomain" id="YesNoDomain_daf02373_c7bf_4096_9cd1_ca835fc37149" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;YesNoDomain&quot; sql=" name="YesNoDomain" id="YesNoDomain_daf02373_c7bf_4096_9cd1_ca835fc37149" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;UseOfWell&quot; sql=" name="UseOfWell" id="UseOfWell_6e9a3852_87f4_4a2a_89c8_667afc6e69c8" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;UseOfWell&quot; sql=" name="UseOfWell" id="UseOfWell_6e9a3852_87f4_4a2a_89c8_667afc6e69c8" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;SchemeType&quot; sql=" name="SchemeType" id="SchemeType_483beac8_2d7f_4711_9f07_f9084e736a60" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;SchemeType&quot; sql=" name="SchemeType" id="SchemeType_483beac8_2d7f_4711_9f07_f9084e736a60" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;Result&quot; sql=" name="Result" id="Result_1c77ab19_f47a_4ce4_b275_09275bab264e" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;Result&quot; sql=" name="Result" id="Result_1c77ab19_f47a_4ce4_b275_09275bab264e" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;ReasonNonFunctioning&quot; sql=" name="ReasonNonFunctioning" id="ReasonNonFunctioning_0258790a_c822_4afd_91b0_1d55e2d380d0" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;ReasonNonFunctioning&quot; sql=" name="ReasonNonFunctioning" id="ReasonNonFunctioning_0258790a_c822_4afd_91b0_1d55e2d380d0" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;PumpType&quot; sql=" name="PumpType" id="PumpType_205a3de7_cd14_4e37_8805_b7365c040718" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;PumpType&quot; sql=" name="PumpType" id="PumpType_205a3de7_cd14_4e37_8805_b7365c040718" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;PumpEnergyType&quot; sql=" name="PumpEnergyType" id="PumpEnergyType_ca340402_af4b_4fd9_af78_a8e1c0e360ff" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;PumpEnergyType&quot; sql=" name="PumpEnergyType" id="PumpEnergyType_ca340402_af4b_4fd9_af78_a8e1c0e360ff" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;PumpBrand&quot; sql=" name="PumpBrand" id="PumpBrand_e47fdad0_1535_46b6_a87c_fc6708c2a47a" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;PumpBrand&quot; sql=" name="PumpBrand" id="PumpBrand_e47fdad0_1535_46b6_a87c_fc6708c2a47a" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;MalfunctionReason&quot; sql=" name="MalfunctionReason" id="MalfunctionReason_f7e99b4b_6312_4fa8_b8df_b3222ac452d1" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;MalfunctionReason&quot; sql=" name="MalfunctionReason" id="MalfunctionReason_f7e99b4b_6312_4fa8_b8df_b3222ac452d1" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;InterventionRequired&quot; sql=" name="InterventionRequired" id="InterventionRequired_4dc482f6_1bd3_4f97_9838_40d163feb441" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;InterventionRequired&quot; sql=" name="InterventionRequired" id="InterventionRequired_4dc482f6_1bd3_4f97_9838_40d163feb441" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;GeneralCondition&quot; sql=" name="GeneralCondition" id="GeneralCondition_fe193b01_0fa5_49ec_92ed_e6f06dbd482b" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;GeneralCondition&quot; sql=" name="GeneralCondition" id="GeneralCondition_fe193b01_0fa5_49ec_92ed_e6f06dbd482b" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;LifecycleStatus&quot; sql=" name="LifecycleStatus" id="LifecycleStatus_85c181ab_30d7_4241_9c0e_9356930c15ec" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;LifecycleStatus&quot; sql=" name="LifecycleStatus" id="LifecycleStatus_85c181ab_30d7_4241_9c0e_9356930c15ec" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;MalfunctionReason&quot; sql=" name="MalfunctionReason" id="MalfunctionReason_b58f870f_1dd0_490a_aa31_abd81da7a2f5" providerKey="postgres" expanded="1" checked="Qt::Checked">
+      <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;MalfunctionReason&quot; sql=" name="MalfunctionReason" id="MalfunctionReason_b58f870f_1dd0_490a_aa31_abd81da7a2f5" providerKey="postgres" expanded="1" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;YE_Admin01&quot; (geom) sql=" name="YE_Admin01" id="YE_Admin01_e33011fd_503e_4ec5_9c40_3f81ca4351b1" providerKey="postgres" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;YE_Admin01&quot; (geom) sql=" name="YE_Admin01" id="YE_Admin01_e33011fd_503e_4ec5_9c40_3f81ca4351b1" providerKey="postgres" expanded="1" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;YE_Admin02&quot; (geom) sql=" name="YE_Admin02" id="YE_Admin02_0b8997bf_bd6e_43f7_bd85_5ed999e32b5c" providerKey="postgres" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;YE_Admin02&quot; (geom) sql=" name="YE_Admin02" id="YE_Admin02_0b8997bf_bd6e_43f7_bd85_5ed999e32b5c" providerKey="postgres" expanded="1" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;Ye_Admin03&quot; (geom) sql=" name="Ye_Admin03" id="Ye_Admin03_184721d5_1f31_4af4_a1a8_60c8555ad553" providerKey="postgres" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;Ye_Admin03&quot; (geom) sql=" name="Ye_Admin03" id="Ye_Admin03_184721d5_1f31_4af4_a1a8_60c8555ad553" providerKey="postgres" expanded="1" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -239,7 +239,7 @@
   <projectlayers>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>GeneralCondition_fe193b01_0fa5_49ec_92ed_e6f06dbd482b</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."GeneralCondition" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."GeneralCondition" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -373,7 +373,7 @@
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>InterventionRequired_4dc482f6_1bd3_4f97_9838_40d163feb441</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."InterventionRequired" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."InterventionRequired" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -507,7 +507,7 @@
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>LifecycleStatus_85c181ab_30d7_4241_9c0e_9356930c15ec</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."LifecycleStatus" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."LifecycleStatus" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -641,7 +641,7 @@
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>MaintenanceVisits_cbb9bfc3_33d2_4d78_99d5_9713ec3b0af1</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' checkPrimaryKeyUnicity='1' table="public"."MaintenanceVisits" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' checkPrimaryKeyUnicity='1' table="public"."MaintenanceVisits" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -899,7 +899,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>MalfunctionReason_b58f870f_1dd0_490a_aa31_abd81da7a2f5</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."MalfunctionReason" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."MalfunctionReason" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1039,7 +1039,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>MalfunctionReason_f7e99b4b_6312_4fa8_b8df_b3222ac452d1</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."MalfunctionReason" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."MalfunctionReason" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1173,7 +1173,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>PumpBrand_e47fdad0_1535_46b6_a87c_fc6708c2a47a</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."PumpBrand" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."PumpBrand" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1307,7 +1307,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>PumpEnergyType_ca340402_af4b_4fd9_af78_a8e1c0e360ff</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."PumpEnergyType" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."PumpEnergyType" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1441,7 +1441,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>PumpType_205a3de7_cd14_4e37_8805_b7365c040718</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."PumpType" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."PumpType" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1575,7 +1575,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>ReasonNonFunctioning_0258790a_c822_4afd_91b0_1d55e2d380d0</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."ReasonNonFunctioning" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."ReasonNonFunctioning" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1709,7 +1709,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>Result_1c77ab19_f47a_4ce4_b275_09275bab264e</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."Result" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."Result" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1849,7 +1849,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>15.14030931970519234</ymax>
       </extent>
       <id>RuralWaterPoint_162915bc_7708_48e8_89e8_d4362e0f18a4</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table="public"."RuralWaterPoint" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table="public"."RuralWaterPoint" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2994,7 +2994,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>15.14030931970519234</ymax>
       </extent>
       <id>RuralWaterPoint_7665c772_1a1b_42ca_b659_669787e6073d</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table="public"."RuralWaterPoint" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table="public"."RuralWaterPoint" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4395,7 +4395,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>15.14030931970519234</ymax>
       </extent>
       <id>RuralWaterPoint_ff64204d_ab7a_40f0_83da_6744767afcf1</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table="public"."RuralWaterPoint" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' srid=4326 type=MultiPoint checkPrimaryKeyUnicity='1' table="public"."RuralWaterPoint" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5918,7 +5918,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>SchemeType_483beac8_2d7f_4711_9f07_f9084e736a60</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."SchemeType" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."SchemeType" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6052,7 +6052,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>UseOfWell_6e9a3852_87f4_4a2a_89c8_667afc6e69c8</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."UseOfWell" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."UseOfWell" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6192,7 +6192,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>19.00000000000005684</ymax>
       </extent>
       <id>YE_Admin01_e33011fd_503e_4ec5_9c40_3f81ca4351b1</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."YE_Admin01" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."YE_Admin01" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6601,7 +6601,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>19.00000000000005684</ymax>
       </extent>
       <id>YE_Admin02_0b8997bf_bd6e_43f7_bd85_5ed999e32b5c</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."YE_Admin02" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."YE_Admin02" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7062,7 +7062,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>19.00000000011982237</ymax>
       </extent>
       <id>Ye_Admin03_184721d5_1f31_4af4_a1a8_60c8555ad553</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."Ye_Admin03" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id_0' srid=4326 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."Ye_Admin03" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7578,7 +7578,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer readOnly="0" maxScale="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="">
       <id>YesNoDomain_daf02373_c7bf_4096_9cd1_ca835fc37149</id>
-      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='gisadmin' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."YesNoDomain" sql=</datasource>
+      <datasource>dbname='gis' host=lizmap.gis-compose.com port=5432 user='pguser' password='qAQCUIpajQaN7zs' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="public"."YesNoDomain" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>

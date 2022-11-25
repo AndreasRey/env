@@ -24,7 +24,7 @@ SET default_table_access_method = heap;
 
 --
 -- TOC entry 236 (class 1259 OID 18625)
--- Name: sample_lines; Type: TABLE; Schema: public; Owner: gisadmin
+-- Name: sample_lines; Type: TABLE; Schema: public; Owner: pguser
 --
 
 CREATE TABLE public.sample_lines (
@@ -34,11 +34,11 @@ CREATE TABLE public.sample_lines (
 );
 
 
-ALTER TABLE public.sample_lines OWNER TO gisadmin;
+ALTER TABLE public.sample_lines OWNER TO pguser;
 
 --
 -- TOC entry 235 (class 1259 OID 18623)
--- Name: sample_lines_id_seq; Type: SEQUENCE; Schema: public; Owner: gisadmin
+-- Name: sample_lines_id_seq; Type: SEQUENCE; Schema: public; Owner: pguser
 --
 
 CREATE SEQUENCE public.sample_lines_id_seq
@@ -50,12 +50,12 @@ CREATE SEQUENCE public.sample_lines_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.sample_lines_id_seq OWNER TO gisadmin;
+ALTER TABLE public.sample_lines_id_seq OWNER TO pguser;
 
 --
 -- TOC entry 5914 (class 0 OID 0)
 -- Dependencies: 235
--- Name: sample_lines_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gisadmin
+-- Name: sample_lines_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: pguser
 --
 
 ALTER SEQUENCE public.sample_lines_id_seq OWNED BY public.sample_lines.id;
@@ -63,7 +63,7 @@ ALTER SEQUENCE public.sample_lines_id_seq OWNED BY public.sample_lines.id;
 
 --
 -- TOC entry 5765 (class 2604 OID 18628)
--- Name: sample_lines id; Type: DEFAULT; Schema: public; Owner: gisadmin
+-- Name: sample_lines id; Type: DEFAULT; Schema: public; Owner: pguser
 --
 
 ALTER TABLE ONLY public.sample_lines ALTER COLUMN id SET DEFAULT nextval('public.sample_lines_id_seq'::regclass);
@@ -72,7 +72,7 @@ ALTER TABLE ONLY public.sample_lines ALTER COLUMN id SET DEFAULT nextval('public
 --
 -- TOC entry 5907 (class 0 OID 18625)
 -- Dependencies: 236
--- Data for Name: sample_lines; Type: TABLE DATA; Schema: public; Owner: gisadmin
+-- Data for Name: sample_lines; Type: TABLE DATA; Schema: public; Owner: pguser
 --
 
 INSERT INTO public.sample_lines (id, geom, name) VALUES (2, '0102000020E61000001000000067C53BCB948C184053B439A3FD1C47406779E85D6E8C18402331E150F21C47402028511D5A8C18409489A515EA1C4740F85E2FE3478C1840A830B973E01C4740F85E2FE3478C1840E125752BD71C47405BF78FF64D8C184001DE0310CE1C47407C7F05FD4F8C184001F3F5DBC91C4740A2482737628C18404C5A20F3BD1C47400B22347E788C18404D5AAFF1B61C4740D593A1D8948C184009FE37E3AE1C47406536D059BD8C18401EFDC7EEA81C474034E9E9E7E98C1840FE29D473A21C474047ACEE821A8D18404307B5259C1C4740FD173F3E558D184026B9C3B7961C4740F4937A06948D1840CCEA7DA3911C4740D0C8ECFBE08D1840D10E3D9C8D1C4740', 'Avenue de la Paix');
@@ -84,7 +84,7 @@ INSERT INTO public.sample_lines (id, geom, name) VALUES (4, '0102000020E61000001
 --
 -- TOC entry 5915 (class 0 OID 0)
 -- Dependencies: 235
--- Name: sample_lines_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gisadmin
+-- Name: sample_lines_id_seq; Type: SEQUENCE SET; Schema: public; Owner: pguser
 --
 
 SELECT pg_catalog.setval('public.sample_lines_id_seq', 4, true);
@@ -92,7 +92,7 @@ SELECT pg_catalog.setval('public.sample_lines_id_seq', 4, true);
 
 --
 -- TOC entry 5767 (class 2606 OID 18630)
--- Name: sample_lines sample_lines_pkey; Type: CONSTRAINT; Schema: public; Owner: gisadmin
+-- Name: sample_lines sample_lines_pkey; Type: CONSTRAINT; Schema: public; Owner: pguser
 --
 
 ALTER TABLE ONLY public.sample_lines
@@ -101,7 +101,7 @@ ALTER TABLE ONLY public.sample_lines
 
 --
 -- TOC entry 5768 (class 1259 OID 18634)
--- Name: sidx_sample_lines_geom; Type: INDEX; Schema: public; Owner: gisadmin
+-- Name: sidx_sample_lines_geom; Type: INDEX; Schema: public; Owner: pguser
 --
 
 CREATE INDEX sidx_sample_lines_geom ON public.sample_lines USING gist (geom);
@@ -110,7 +110,7 @@ CREATE INDEX sidx_sample_lines_geom ON public.sample_lines USING gist (geom);
 --
 -- TOC entry 5913 (class 0 OID 0)
 -- Dependencies: 236
--- Name: TABLE sample_lines; Type: ACL; Schema: public; Owner: gisadmin
+-- Name: TABLE sample_lines; Type: ACL; Schema: public; Owner: pguser
 --
 
 GRANT SELECT ON TABLE public.sample_lines TO replicator;
@@ -148,7 +148,7 @@ SET default_table_access_method = heap;
 
 --
 -- TOC entry 234 (class 1259 OID 18613)
--- Name: sample_points; Type: TABLE; Schema: public; Owner: gisadmin
+-- Name: sample_points; Type: TABLE; Schema: public; Owner: pguser
 --
 
 CREATE TABLE public.sample_points (
@@ -158,11 +158,11 @@ CREATE TABLE public.sample_points (
 );
 
 
-ALTER TABLE public.sample_points OWNER TO gisadmin;
+ALTER TABLE public.sample_points OWNER TO pguser;
 
 --
 -- TOC entry 233 (class 1259 OID 18611)
--- Name: sample_points_id_seq; Type: SEQUENCE; Schema: public; Owner: gisadmin
+-- Name: sample_points_id_seq; Type: SEQUENCE; Schema: public; Owner: pguser
 --
 
 CREATE SEQUENCE public.sample_points_id_seq
@@ -174,12 +174,12 @@ CREATE SEQUENCE public.sample_points_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.sample_points_id_seq OWNER TO gisadmin;
+ALTER TABLE public.sample_points_id_seq OWNER TO pguser;
 
 --
 -- TOC entry 5914 (class 0 OID 0)
 -- Dependencies: 233
--- Name: sample_points_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gisadmin
+-- Name: sample_points_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: pguser
 --
 
 ALTER SEQUENCE public.sample_points_id_seq OWNED BY public.sample_points.id;
@@ -187,7 +187,7 @@ ALTER SEQUENCE public.sample_points_id_seq OWNED BY public.sample_points.id;
 
 --
 -- TOC entry 5765 (class 2604 OID 18616)
--- Name: sample_points id; Type: DEFAULT; Schema: public; Owner: gisadmin
+-- Name: sample_points id; Type: DEFAULT; Schema: public; Owner: pguser
 --
 
 ALTER TABLE ONLY public.sample_points ALTER COLUMN id SET DEFAULT nextval('public.sample_points_id_seq'::regclass);
@@ -196,7 +196,7 @@ ALTER TABLE ONLY public.sample_points ALTER COLUMN id SET DEFAULT nextval('publi
 --
 -- TOC entry 5907 (class 0 OID 18613)
 -- Dependencies: 234
--- Data for Name: sample_points; Type: TABLE DATA; Schema: public; Owner: gisadmin
+-- Data for Name: sample_points; Type: TABLE DATA; Schema: public; Owner: pguser
 --
 
 INSERT INTO public.sample_points (id, name, geom) VALUES (9, 'Museum', '0101000020E6100000E633C31D148C184035137AB5181D4740');
@@ -207,7 +207,7 @@ INSERT INTO public.sample_points (id, name, geom) VALUES (11, 'Reception', '0101
 --
 -- TOC entry 5915 (class 0 OID 0)
 -- Dependencies: 233
--- Name: sample_points_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gisadmin
+-- Name: sample_points_id_seq; Type: SEQUENCE SET; Schema: public; Owner: pguser
 --
 
 SELECT pg_catalog.setval('public.sample_points_id_seq', 11, true);
@@ -215,7 +215,7 @@ SELECT pg_catalog.setval('public.sample_points_id_seq', 11, true);
 
 --
 -- TOC entry 5767 (class 2606 OID 18621)
--- Name: sample_points sample_points_pkey; Type: CONSTRAINT; Schema: public; Owner: gisadmin
+-- Name: sample_points sample_points_pkey; Type: CONSTRAINT; Schema: public; Owner: pguser
 --
 
 ALTER TABLE ONLY public.sample_points
@@ -224,7 +224,7 @@ ALTER TABLE ONLY public.sample_points
 
 --
 -- TOC entry 5768 (class 1259 OID 18622)
--- Name: sidx_sample_points_geom; Type: INDEX; Schema: public; Owner: gisadmin
+-- Name: sidx_sample_points_geom; Type: INDEX; Schema: public; Owner: pguser
 --
 
 CREATE INDEX sidx_sample_points_geom ON public.sample_points USING gist (geom);
@@ -233,7 +233,7 @@ CREATE INDEX sidx_sample_points_geom ON public.sample_points USING gist (geom);
 --
 -- TOC entry 5913 (class 0 OID 0)
 -- Dependencies: 234
--- Name: TABLE sample_points; Type: ACL; Schema: public; Owner: gisadmin
+-- Name: TABLE sample_points; Type: ACL; Schema: public; Owner: pguser
 --
 
 GRANT SELECT ON TABLE public.sample_points TO replicator;
@@ -271,7 +271,7 @@ SET default_table_access_method = heap;
 
 --
 -- TOC entry 238 (class 1259 OID 18637)
--- Name: sample_polygons; Type: TABLE; Schema: public; Owner: gisadmin
+-- Name: sample_polygons; Type: TABLE; Schema: public; Owner: pguser
 --
 
 CREATE TABLE public.sample_polygons (
@@ -281,11 +281,11 @@ CREATE TABLE public.sample_polygons (
 );
 
 
-ALTER TABLE public.sample_polygons OWNER TO gisadmin;
+ALTER TABLE public.sample_polygons OWNER TO pguser;
 
 --
 -- TOC entry 237 (class 1259 OID 18635)
--- Name: sample_polygons_id_seq; Type: SEQUENCE; Schema: public; Owner: gisadmin
+-- Name: sample_polygons_id_seq; Type: SEQUENCE; Schema: public; Owner: pguser
 --
 
 CREATE SEQUENCE public.sample_polygons_id_seq
@@ -297,12 +297,12 @@ CREATE SEQUENCE public.sample_polygons_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.sample_polygons_id_seq OWNER TO gisadmin;
+ALTER TABLE public.sample_polygons_id_seq OWNER TO pguser;
 
 --
 -- TOC entry 5914 (class 0 OID 0)
 -- Dependencies: 237
--- Name: sample_polygons_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gisadmin
+-- Name: sample_polygons_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: pguser
 --
 
 ALTER SEQUENCE public.sample_polygons_id_seq OWNED BY public.sample_polygons.id;
@@ -310,7 +310,7 @@ ALTER SEQUENCE public.sample_polygons_id_seq OWNED BY public.sample_polygons.id;
 
 --
 -- TOC entry 5765 (class 2604 OID 18640)
--- Name: sample_polygons id; Type: DEFAULT; Schema: public; Owner: gisadmin
+-- Name: sample_polygons id; Type: DEFAULT; Schema: public; Owner: pguser
 --
 
 ALTER TABLE ONLY public.sample_polygons ALTER COLUMN id SET DEFAULT nextval('public.sample_polygons_id_seq'::regclass);
@@ -319,7 +319,7 @@ ALTER TABLE ONLY public.sample_polygons ALTER COLUMN id SET DEFAULT nextval('pub
 --
 -- TOC entry 5907 (class 0 OID 18637)
 -- Dependencies: 238
--- Data for Name: sample_polygons; Type: TABLE DATA; Schema: public; Owner: gisadmin
+-- Data for Name: sample_polygons; Type: TABLE DATA; Schema: public; Owner: pguser
 --
 
 INSERT INTO public.sample_polygons (id, type, geom) VALUES (1, 'Office', '0103000020E61000000100000005000000192B7EFA358C1840AB317223511D4740A3B6ED894F8C1840256DCBB74C1D4740A92E3BA48C8B1840D824BD8F401D4740AEB1DDE26F8B1840C8538485441D4740192B7EFA358C1840AB317223511D4740');
@@ -334,7 +334,7 @@ INSERT INTO public.sample_polygons (id, type, geom) VALUES (7, 'Restaurant', '01
 --
 -- TOC entry 5915 (class 0 OID 0)
 -- Dependencies: 237
--- Name: sample_polygons_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gisadmin
+-- Name: sample_polygons_id_seq; Type: SEQUENCE SET; Schema: public; Owner: pguser
 --
 
 SELECT pg_catalog.setval('public.sample_polygons_id_seq', 7, true);
@@ -342,7 +342,7 @@ SELECT pg_catalog.setval('public.sample_polygons_id_seq', 7, true);
 
 --
 -- TOC entry 5767 (class 2606 OID 18645)
--- Name: sample_polygons sample_polygons_pkey; Type: CONSTRAINT; Schema: public; Owner: gisadmin
+-- Name: sample_polygons sample_polygons_pkey; Type: CONSTRAINT; Schema: public; Owner: pguser
 --
 
 ALTER TABLE ONLY public.sample_polygons
@@ -351,7 +351,7 @@ ALTER TABLE ONLY public.sample_polygons
 
 --
 -- TOC entry 5768 (class 1259 OID 18646)
--- Name: sidx_sample_polygons_geom; Type: INDEX; Schema: public; Owner: gisadmin
+-- Name: sidx_sample_polygons_geom; Type: INDEX; Schema: public; Owner: pguser
 --
 
 CREATE INDEX sidx_sample_polygons_geom ON public.sample_polygons USING gist (geom);
@@ -360,7 +360,7 @@ CREATE INDEX sidx_sample_polygons_geom ON public.sample_polygons USING gist (geo
 --
 -- TOC entry 5913 (class 0 OID 0)
 -- Dependencies: 238
--- Name: TABLE sample_polygons; Type: ACL; Schema: public; Owner: gisadmin
+-- Name: TABLE sample_polygons; Type: ACL; Schema: public; Owner: pguser
 --
 
 GRANT SELECT ON TABLE public.sample_polygons TO replicator;

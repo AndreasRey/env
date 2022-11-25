@@ -19,13 +19,13 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer source="dbname='gis' host=postgis port=5432 user='gisadmin' key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_points&quot; (geom) sql=" id="sample_points_84e2d771_466e_42bb_9be5_6163054a9f3e" providerKey="postgres" expanded="1" name="Points" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=postgis port=5432 user='pguser' key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_points&quot; (geom) sql=" id="sample_points_84e2d771_466e_42bb_9be5_6163054a9f3e" providerKey="postgres" expanded="1" name="Points" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='gis' host=postgis port=5432 user='gisadmin' key='id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_lines&quot; (geom) sql=" id="sample_lines_c0280dd1_82df_4cd1_a0cd_fc1b960b865d" providerKey="postgres" expanded="1" name="Lines" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=postgis port=5432 user='pguser' key='id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_lines&quot; (geom) sql=" id="sample_lines_c0280dd1_82df_4cd1_a0cd_fc1b960b865d" providerKey="postgres" expanded="1" name="Lines" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='gis' host=postgis port=5432 user='gisadmin' key='id' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_polygons&quot; (geom) sql=" id="sample_polygons_537544dc_ba89_4306_8c4f_364a6d959a96" providerKey="postgres" expanded="1" name="Polygons" checked="Qt::Checked">
+    <layer-tree-layer source="dbname='gis' host=postgis port=5432 user='pguser' key='id' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;sample_polygons&quot; (geom) sql=" id="sample_polygons_537544dc_ba89_4306_8c4f_364a6d959a96" providerKey="postgres" expanded="1" name="Polygons" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -94,7 +94,7 @@
         <ymax>46.23070374032686658</ymax>
       </extent>
       <id>sample_lines_c0280dd1_82df_4cd1_a0cd_fc1b960b865d</id>
-      <datasource>dbname='gis' host=postgis port=5432 user='gisadmin' password='gisadminsecret' key='id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table="public"."sample_lines" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=postgis port=5432 user='pguser' password='pgpassword' key='id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table="public"."sample_lines" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -344,7 +344,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.2281325569335948</ymax>
       </extent>
       <id>sample_points_84e2d771_466e_42bb_9be5_6163054a9f3e</id>
-      <datasource>dbname='gis' host=postgis port=5432 user='gisadmin' password='gisadminsecret' key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="public"."sample_points" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=postgis port=5432 user='pguser' password='pgpassword' key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="public"."sample_points" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -572,7 +572,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.22903864932899154</ymax>
       </extent>
       <id>sample_polygons_537544dc_ba89_4306_8c4f_364a6d959a96</id>
-      <datasource>dbname='gis' host=postgis port=5432 user='gisadmin' password='gisadminsecret' key='id' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table="public"."sample_polygons" (geom) sql=</datasource>
+      <datasource>dbname='gis' host=postgis port=5432 user='pguser' password='pgpassword' key='id' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table="public"."sample_polygons" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
