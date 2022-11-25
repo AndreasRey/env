@@ -1,10 +1,10 @@
 {
   "Servers": {
     "1": {
-      "Name": "GIS Server",
+      "Name": "Postgis Training Server",
       "Group": "Servers",
       "Port": 5432,
-      "Username": "gisadmin",
+      "Username": "pguser",
       "Host": "postgis",
       "SSLMode": "prefer",
       "MaintenanceDB": "postgres"
